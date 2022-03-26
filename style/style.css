@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.hypotenuse {
+  text-align: center;
+}
+
+.hypotenuse .a {
+  border-radius: 3px;
+  border-style: solid;
+  padding: 6px;
+  border-width: 1.5px;
+}
+
+.hypotenuse .b {
+  border-radius: 3px;
+  border-style: solid;
+  padding: 6px;
+  border-width: 1.5px;
+}
+
+.hypotenuse .submit {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #3483c9;
+  color: white;
+  font-family: Poppins;
+  padding: 6px;
+  background-color: #3483c9;
+}
+
+.hypotenuse .submit:hover {
+  background-color: #1d5488;
+  border-color: #1d5488;
+}
+
+.ans:hover {
+  font-size: 42px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  text-decoration: overline;
+}
+
+@media only screen and (max-width: 600px) {
+  .submit {
+    margin-top: 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

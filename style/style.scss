@@ -1,0 +1,46 @@
+body { 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Poppins;
+}
+.hypotenuse { 
+    text-align: center;
+    .a {
+      border-radius: 3px;
+      border-style:solid; 
+      padding: 6px; 
+      border-width: 1.5px;
+    } 
+    .b{
+        border-radius: 3px;
+        border-style:solid;
+        padding: 6px; 
+        border-width: 1.5px;
+    }
+    .submit {
+        border-radius: 3px;
+        border-style:solid; 
+        border-width: 1.5px;
+        border-color: rgb(52, 131, 201);
+        color:white;
+        font-family: Poppins;
+        padding: 6px;
+        background-color: rgb(52, 131, 201);
+    }
+    .submit:hover {
+        background-color: rgb(29, 84, 136);
+        border-color: rgb(29, 84, 136);
+    }
+}
+.ans:hover {
+    font-size: 42px;
+    transition-duration: 1s;
+    text-decoration: overline;
+}
+
+@media only screen and (max-width: 600px) {
+    .submit { 
+        margin-top: 12px;
+    }    
+}
